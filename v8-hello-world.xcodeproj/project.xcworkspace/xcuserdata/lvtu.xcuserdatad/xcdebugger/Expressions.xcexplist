@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CallJSFunction(v8::Isolate*, v8::Local&lt;v8::Object&gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, v8::Local&lt;v8::Value&gt;*, unsigned int):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "_Connection(v8::FunctionCallbackInfo&lt;v8::Value&gt; const&amp;):helloJNI.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "::sayHello(int, char **):helloJNI.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "_ConnectionConstructor(v8::FunctionCallbackInfo&lt;v8::Value&gt; const&amp;):helloJNI.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "*obj">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

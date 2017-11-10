@@ -7,10 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5052FF1FB0166C0055BB76 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FD1FB0166B0055BB76 /* libicui18n.a */; };
+		EF5053001FB0166C0055BB76 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FE1FB0166B0055BB76 /* libicuuc.a */; };
+		EF5053051FB0231C0055BB76 /* libv8_external_snapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053011FB0231C0055BB76 /* libv8_external_snapshot.a */; };
+		EF5053061FB0231C0055BB76 /* libinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053021FB0231C0055BB76 /* libinspector.a */; };
+		EF5053071FB0231C0055BB76 /* libv8_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053031FB0231C0055BB76 /* libv8_base.a */; };
+		EF5053081FB0231C0055BB76 /* libv8_libsampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053041FB0231C0055BB76 /* libv8_libsampler.a */; };
+		EF5053191FB044770055BB76 /* com_company_HelloJNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053171FB0446F0055BB76 /* com_company_HelloJNI.cpp */; };
+		EF50531A1FB044BE0055BB76 /* libv8_external_snapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053011FB0231C0055BB76 /* libv8_external_snapshot.a */; };
+		EF50531B1FB044BE0055BB76 /* libv8_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053031FB0231C0055BB76 /* libv8_base.a */; };
+		EF50531C1FB044BE0055BB76 /* libinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053021FB0231C0055BB76 /* libinspector.a */; };
+		EF50531D1FB044BE0055BB76 /* libv8_libsampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053041FB0231C0055BB76 /* libv8_libsampler.a */; };
+		EF50531E1FB044BE0055BB76 /* libv8_libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55D1FB011F0006E79DD /* libv8_libplatform.a */; };
+		EF50531F1FB044BE0055BB76 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FD1FB0166B0055BB76 /* libicui18n.a */; };
+		EF5053201FB044BE0055BB76 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FE1FB0166B0055BB76 /* libicuuc.a */; };
+		EF5053211FB044BE0055BB76 /* libv8_libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55E1FB011F0006E79DD /* libv8_libbase.a */; };
+		EF5053231FB045420055BB76 /* com_company_HelloJNI.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053221FB045300055BB76 /* com_company_HelloJNI.h */; };
+		EF5053261FB18DD50055BB76 /* jsob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053241FB18DD50055BB76 /* jsob.cpp */; };
+		EF5053271FB18DD50055BB76 /* jsob.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EF5053251FB18DD50055BB76 /* jsob.hpp */; };
+		EF5053291FB1B44F0055BB76 /* process.cc in Sources */ = {isa = PBXBuildFile; fileRef = EF5053281FB1B44F0055BB76 /* process.cc */; };
+		EF5053351FB1CE0E0055BB76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053341FB1CE0E0055BB76 /* main.cpp */; };
+		EF5053471FB1F0190055BB76 /* com_company_HelloJNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053171FB0446F0055BB76 /* com_company_HelloJNI.cpp */; };
+		EF5053481FB1F07A0055BB76 /* jsob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053241FB18DD50055BB76 /* jsob.cpp */; };
+		EF5053611FB1F1730055BB76 /* libv8_external_snapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053011FB0231C0055BB76 /* libv8_external_snapshot.a */; };
+		EF5053621FB1F1730055BB76 /* libv8_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053031FB0231C0055BB76 /* libv8_base.a */; };
+		EF5053631FB1F1730055BB76 /* libinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053021FB0231C0055BB76 /* libinspector.a */; };
+		EF5053641FB1F1730055BB76 /* libv8_libsampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5053041FB0231C0055BB76 /* libv8_libsampler.a */; };
+		EF5053651FB1F1730055BB76 /* libv8_libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55D1FB011F0006E79DD /* libv8_libplatform.a */; };
+		EF5053661FB1F1730055BB76 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FD1FB0166B0055BB76 /* libicui18n.a */; };
+		EF5053671FB1F1730055BB76 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5052FE1FB0166B0055BB76 /* libicuuc.a */; };
+		EF5053681FB1F1730055BB76 /* libv8_libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55E1FB011F0006E79DD /* libv8_libbase.a */; };
+		EF50536B1FB2A5030055BB76 /* V8JNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053691FB2A5030055BB76 /* V8JNI.cpp */; };
+		EF50536C1FB2A5030055BB76 /* V8JNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053691FB2A5030055BB76 /* V8JNI.cpp */; };
+		EF50536D1FB2A5030055BB76 /* V8JNI.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EF50536A1FB2A5030055BB76 /* V8JNI.hpp */; };
+		EF5053711FB542D80055BB76 /* com_company_JSContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053701FB542D80055BB76 /* com_company_JSContext.cpp */; };
+		EF5053731FB545D00055BB76 /* com_company_V8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053721FB545D00055BB76 /* com_company_V8.cpp */; };
+		EF5053761FB550230055BB76 /* context_connection_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5053741FB550230055BB76 /* context_connection_template.cpp */; };
+		EF5053771FB550230055BB76 /* context_connection_template.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EF5053751FB550230055BB76 /* context_connection_template.hpp */; };
+		EF5053901FB5981E0055BB76 /* libplatform-export.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50537F1FB5981D0055BB76 /* libplatform-export.h */; };
+		EF5053911FB5981E0055BB76 /* libplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053801FB5981D0055BB76 /* libplatform.h */; };
+		EF5053921FB5981E0055BB76 /* v8-tracing.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053811FB5981D0055BB76 /* v8-tracing.h */; };
+		EF5053931FB5981E0055BB76 /* v8-debug.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053841FB5981D0055BB76 /* v8-debug.h */; };
+		EF5053941FB5981E0055BB76 /* v8-inspector-protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053851FB5981D0055BB76 /* v8-inspector-protocol.h */; };
+		EF5053951FB5981E0055BB76 /* v8-inspector.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053861FB5981D0055BB76 /* v8-inspector.h */; };
+		EF5053961FB5981E0055BB76 /* v8-platform.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053871FB5981D0055BB76 /* v8-platform.h */; };
+		EF5053971FB5981E0055BB76 /* v8-profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053881FB5981D0055BB76 /* v8-profiler.h */; };
+		EF5053981FB5981E0055BB76 /* v8-testing.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5053891FB5981D0055BB76 /* v8-testing.h */; };
+		EF5053991FB5981E0055BB76 /* v8-util.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538A1FB5981D0055BB76 /* v8-util.h */; };
+		EF50539A1FB5981E0055BB76 /* v8-value-serializer-version.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538B1FB5981D0055BB76 /* v8-value-serializer-version.h */; };
+		EF50539B1FB5981E0055BB76 /* v8-version-string.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538C1FB5981D0055BB76 /* v8-version-string.h */; };
+		EF50539C1FB5981E0055BB76 /* v8-version.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538D1FB5981D0055BB76 /* v8-version.h */; };
+		EF50539D1FB5981E0055BB76 /* v8.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538E1FB5981D0055BB76 /* v8.h */; };
+		EF50539E1FB5981E0055BB76 /* v8config.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50538F1FB5981D0055BB76 /* v8config.h */; };
 		EFB7C5561FB01127006E79DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB7C5551FB01127006E79DD /* main.cpp */; };
+		EFB7C55F1FB011F0006E79DD /* libv8_libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55D1FB011F0006E79DD /* libv8_libplatform.a */; };
+		EFB7C5601FB011F0006E79DD /* libv8_libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB7C55E1FB011F0006E79DD /* libv8_libbase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EF5053301FB1CE0E0055BB76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFB7C5501FB01127006E79DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,26 +86,176 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF5052FD1FB0166B0055BB76 /* libicui18n.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicui18n.a; sourceTree = "<group>"; };
+		EF5052FE1FB0166B0055BB76 /* libicuuc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicuuc.a; sourceTree = "<group>"; };
+		EF5053011FB0231C0055BB76 /* libv8_external_snapshot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8_external_snapshot.a; sourceTree = "<group>"; };
+		EF5053021FB0231C0055BB76 /* libinspector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libinspector.a; sourceTree = "<group>"; };
+		EF5053031FB0231C0055BB76 /* libv8_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8_base.a; sourceTree = "<group>"; };
+		EF5053041FB0231C0055BB76 /* libv8_libsampler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8_libsampler.a; sourceTree = "<group>"; };
+		EF50530D1FB044080055BB76 /* libv8HelloWorld.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libv8HelloWorld.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5053171FB0446F0055BB76 /* com_company_HelloJNI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = com_company_HelloJNI.cpp; sourceTree = "<group>"; };
+		EF5053221FB045300055BB76 /* com_company_HelloJNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_company_HelloJNI.h; sourceTree = "<group>"; };
+		EF5053241FB18DD50055BB76 /* jsob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsob.cpp; sourceTree = "<group>"; };
+		EF5053251FB18DD50055BB76 /* jsob.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsob.hpp; sourceTree = "<group>"; };
+		EF5053281FB1B44F0055BB76 /* process.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = process.cc; sourceTree = "<group>"; };
+		EF5053321FB1CE0E0055BB76 /* TestHelloJNI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestHelloJNI; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5053341FB1CE0E0055BB76 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF50533C1FB1CEAF0055BB76 /* helloJNI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = helloJNI.h; sourceTree = "<group>"; };
+		EF5053491FB1F11F0055BB76 /* libicuuc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.dylib; path = debuglib/libicuuc.dylib; sourceTree = "<group>"; };
+		EF50534A1FB1F11F0055BB76 /* libv8_for_testing.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libv8_for_testing.dylib.TOC; path = debuglib/libv8_for_testing.dylib.TOC; sourceTree = "<group>"; };
+		EF50534B1FB1F11F0055BB76 /* libv8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libv8.dylib; path = debuglib/libv8.dylib; sourceTree = "<group>"; };
+		EF50534C1FB1F11F0055BB76 /* libicui18n.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicui18n.dylib; path = debuglib/libicui18n.dylib; sourceTree = "<group>"; };
+		EF50534D1FB1F11F0055BB76 /* libv8_libplatform.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libv8_libplatform.dylib; path = debuglib/libv8_libplatform.dylib; sourceTree = "<group>"; };
+		EF50534E1FB1F11F0055BB76 /* libicui18n.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libicui18n.dylib.TOC; path = debuglib/libicui18n.dylib.TOC; sourceTree = "<group>"; };
+		EF50534F1FB1F11F0055BB76 /* libicuuc.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libicuuc.dylib.TOC; path = debuglib/libicuuc.dylib.TOC; sourceTree = "<group>"; };
+		EF5053501FB1F11F0055BB76 /* libv8_for_testing.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libv8_for_testing.dylib; path = debuglib/libv8_for_testing.dylib; sourceTree = "<group>"; };
+		EF5053511FB1F11F0055BB76 /* libv8_libbase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libv8_libbase.dylib; path = debuglib/libv8_libbase.dylib; sourceTree = "<group>"; };
+		EF5053521FB1F1200055BB76 /* libv8_libbase.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libv8_libbase.dylib.TOC; path = debuglib/libv8_libbase.dylib.TOC; sourceTree = "<group>"; };
+		EF5053531FB1F1200055BB76 /* libv8_libplatform.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libv8_libplatform.dylib.TOC; path = debuglib/libv8_libplatform.dylib.TOC; sourceTree = "<group>"; };
+		EF5053541FB1F1200055BB76 /* libv8.dylib.TOC */ = {isa = PBXFileReference; lastKnownFileType = text; name = libv8.dylib.TOC; path = debuglib/libv8.dylib.TOC; sourceTree = "<group>"; };
+		EF5053691FB2A5030055BB76 /* V8JNI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = V8JNI.cpp; sourceTree = "<group>"; };
+		EF50536A1FB2A5030055BB76 /* V8JNI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = V8JNI.hpp; sourceTree = "<group>"; };
+		EF50536E1FB53F5D0055BB76 /* com_company_V8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_company_V8.h; sourceTree = "<group>"; };
+		EF50536F1FB5429E0055BB76 /* com_company_JSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_company_JSContext.h; sourceTree = "<group>"; };
+		EF5053701FB542D80055BB76 /* com_company_JSContext.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = com_company_JSContext.cpp; sourceTree = "<group>"; };
+		EF5053721FB545D00055BB76 /* com_company_V8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = com_company_V8.cpp; sourceTree = "<group>"; };
+		EF5053741FB550230055BB76 /* context_connection_template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = context_connection_template.cpp; sourceTree = "<group>"; };
+		EF5053751FB550230055BB76 /* context_connection_template.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = context_connection_template.hpp; sourceTree = "<group>"; };
+		EF50537B1FB5981D0055BB76 /* APIDesign.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = APIDesign.md; sourceTree = "<group>"; };
+		EF50537C1FB5981D0055BB76 /* DEPS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DEPS; sourceTree = "<group>"; };
+		EF50537E1FB5981D0055BB76 /* DEPS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DEPS; sourceTree = "<group>"; };
+		EF50537F1FB5981D0055BB76 /* libplatform-export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libplatform-export.h"; sourceTree = "<group>"; };
+		EF5053801FB5981D0055BB76 /* libplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libplatform.h; sourceTree = "<group>"; };
+		EF5053811FB5981D0055BB76 /* v8-tracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-tracing.h"; sourceTree = "<group>"; };
+		EF5053821FB5981D0055BB76 /* OWNERS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OWNERS; sourceTree = "<group>"; };
+		EF5053831FB5981D0055BB76 /* PRESUBMIT.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PRESUBMIT.py; sourceTree = "<group>"; };
+		EF5053841FB5981D0055BB76 /* v8-debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-debug.h"; sourceTree = "<group>"; };
+		EF5053851FB5981D0055BB76 /* v8-inspector-protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-inspector-protocol.h"; sourceTree = "<group>"; };
+		EF5053861FB5981D0055BB76 /* v8-inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-inspector.h"; sourceTree = "<group>"; };
+		EF5053871FB5981D0055BB76 /* v8-platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-platform.h"; sourceTree = "<group>"; };
+		EF5053881FB5981D0055BB76 /* v8-profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-profiler.h"; sourceTree = "<group>"; };
+		EF5053891FB5981D0055BB76 /* v8-testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-testing.h"; sourceTree = "<group>"; };
+		EF50538A1FB5981D0055BB76 /* v8-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-util.h"; sourceTree = "<group>"; };
+		EF50538B1FB5981D0055BB76 /* v8-value-serializer-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-value-serializer-version.h"; sourceTree = "<group>"; };
+		EF50538C1FB5981D0055BB76 /* v8-version-string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-version-string.h"; sourceTree = "<group>"; };
+		EF50538D1FB5981D0055BB76 /* v8-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "v8-version.h"; sourceTree = "<group>"; };
+		EF50538E1FB5981D0055BB76 /* v8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8.h; sourceTree = "<group>"; };
+		EF50538F1FB5981D0055BB76 /* v8config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v8config.h; sourceTree = "<group>"; };
 		EFB7C5521FB01127006E79DD /* v8-hello-world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "v8-hello-world"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB7C5551FB01127006E79DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB7C55D1FB011F0006E79DD /* libv8_libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8_libplatform.a; sourceTree = "<group>"; };
+		EFB7C55E1FB011F0006E79DD /* libv8_libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libv8_libbase.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF50530A1FB044080055BB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF50531A1FB044BE0055BB76 /* libv8_external_snapshot.a in Frameworks */,
+				EF50531B1FB044BE0055BB76 /* libv8_base.a in Frameworks */,
+				EF50531C1FB044BE0055BB76 /* libinspector.a in Frameworks */,
+				EF50531D1FB044BE0055BB76 /* libv8_libsampler.a in Frameworks */,
+				EF50531E1FB044BE0055BB76 /* libv8_libplatform.a in Frameworks */,
+				EF50531F1FB044BE0055BB76 /* libicui18n.a in Frameworks */,
+				EF5053201FB044BE0055BB76 /* libicuuc.a in Frameworks */,
+				EF5053211FB044BE0055BB76 /* libv8_libbase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50532F1FB1CE0E0055BB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5053611FB1F1730055BB76 /* libv8_external_snapshot.a in Frameworks */,
+				EF5053621FB1F1730055BB76 /* libv8_base.a in Frameworks */,
+				EF5053631FB1F1730055BB76 /* libinspector.a in Frameworks */,
+				EF5053641FB1F1730055BB76 /* libv8_libsampler.a in Frameworks */,
+				EF5053651FB1F1730055BB76 /* libv8_libplatform.a in Frameworks */,
+				EF5053661FB1F1730055BB76 /* libicui18n.a in Frameworks */,
+				EF5053671FB1F1730055BB76 /* libicuuc.a in Frameworks */,
+				EF5053681FB1F1730055BB76 /* libv8_libbase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFB7C54F1FB01127006E79DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5053051FB0231C0055BB76 /* libv8_external_snapshot.a in Frameworks */,
+				EF5053061FB0231C0055BB76 /* libinspector.a in Frameworks */,
+				EF5053071FB0231C0055BB76 /* libv8_base.a in Frameworks */,
+				EF5053081FB0231C0055BB76 /* libv8_libsampler.a in Frameworks */,
+				EFB7C55F1FB011F0006E79DD /* libv8_libplatform.a in Frameworks */,
+				EF5052FF1FB0166C0055BB76 /* libicui18n.a in Frameworks */,
+				EF5053001FB0166C0055BB76 /* libicuuc.a in Frameworks */,
+				EFB7C5601FB011F0006E79DD /* libv8_libbase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF5053331FB1CE0E0055BB76 /* TestHelloJNI */ = {
+			isa = PBXGroup;
+			children = (
+				EF50533C1FB1CEAF0055BB76 /* helloJNI.h */,
+				EF5053341FB1CE0E0055BB76 /* main.cpp */,
+			);
+			path = TestHelloJNI;
+			sourceTree = "<group>";
+		};
+		EF5053791FB5981D0055BB76 /* v8framework */ = {
+			isa = PBXGroup;
+			children = (
+				EF50537A1FB5981D0055BB76 /* include */,
+			);
+			path = v8framework;
+			sourceTree = "<group>";
+		};
+		EF50537A1FB5981D0055BB76 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EF50537B1FB5981D0055BB76 /* APIDesign.md */,
+				EF50537C1FB5981D0055BB76 /* DEPS */,
+				EF50537D1FB5981D0055BB76 /* libplatform */,
+				EF5053821FB5981D0055BB76 /* OWNERS */,
+				EF5053831FB5981D0055BB76 /* PRESUBMIT.py */,
+				EF5053841FB5981D0055BB76 /* v8-debug.h */,
+				EF5053851FB5981D0055BB76 /* v8-inspector-protocol.h */,
+				EF5053861FB5981D0055BB76 /* v8-inspector.h */,
+				EF5053871FB5981D0055BB76 /* v8-platform.h */,
+				EF5053881FB5981D0055BB76 /* v8-profiler.h */,
+				EF5053891FB5981D0055BB76 /* v8-testing.h */,
+				EF50538A1FB5981D0055BB76 /* v8-util.h */,
+				EF50538B1FB5981D0055BB76 /* v8-value-serializer-version.h */,
+				EF50538C1FB5981D0055BB76 /* v8-version-string.h */,
+				EF50538D1FB5981D0055BB76 /* v8-version.h */,
+				EF50538E1FB5981D0055BB76 /* v8.h */,
+				EF50538F1FB5981D0055BB76 /* v8config.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EF50537D1FB5981D0055BB76 /* libplatform */ = {
+			isa = PBXGroup;
+			children = (
+				EF50537E1FB5981D0055BB76 /* DEPS */,
+				EF50537F1FB5981D0055BB76 /* libplatform-export.h */,
+				EF5053801FB5981D0055BB76 /* libplatform.h */,
+				EF5053811FB5981D0055BB76 /* v8-tracing.h */,
+			);
+			path = libplatform;
+			sourceTree = "<group>";
+		};
 		EFB7C5491FB01127006E79DD = {
 			isa = PBXGroup;
 			children = (
+				EF5053791FB5981D0055BB76 /* v8framework */,
 				EFB7C5541FB01127006E79DD /* v8-hello-world */,
+				EF5053331FB1CE0E0055BB76 /* TestHelloJNI */,
 				EFB7C5531FB01127006E79DD /* Products */,
+				EFB7C55C1FB011F0006E79DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				EFB7C5521FB01127006E79DD /* v8-hello-world */,
+				EF50530D1FB044080055BB76 /* libv8HelloWorld.dylib */,
+				EF5053321FB1CE0E0055BB76 /* TestHelloJNI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +272,117 @@
 		EFB7C5541FB01127006E79DD /* v8-hello-world */ = {
 			isa = PBXGroup;
 			children = (
+				EF5053691FB2A5030055BB76 /* V8JNI.cpp */,
+				EF50536A1FB2A5030055BB76 /* V8JNI.hpp */,
+				EF50536E1FB53F5D0055BB76 /* com_company_V8.h */,
+				EF5053721FB545D00055BB76 /* com_company_V8.cpp */,
+				EF50536F1FB5429E0055BB76 /* com_company_JSContext.h */,
+				EF5053701FB542D80055BB76 /* com_company_JSContext.cpp */,
+				EF5053741FB550230055BB76 /* context_connection_template.cpp */,
+				EF5053751FB550230055BB76 /* context_connection_template.hpp */,
+				EF5053241FB18DD50055BB76 /* jsob.cpp */,
+				EF5053251FB18DD50055BB76 /* jsob.hpp */,
+				EF5053221FB045300055BB76 /* com_company_HelloJNI.h */,
+				EF5053171FB0446F0055BB76 /* com_company_HelloJNI.cpp */,
+				EF5053281FB1B44F0055BB76 /* process.cc */,
 				EFB7C5551FB01127006E79DD /* main.cpp */,
 			);
 			path = "v8-hello-world";
 			sourceTree = "<group>";
 		};
+		EFB7C55C1FB011F0006E79DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF50534C1FB1F11F0055BB76 /* libicui18n.dylib */,
+				EF50534E1FB1F11F0055BB76 /* libicui18n.dylib.TOC */,
+				EF5053491FB1F11F0055BB76 /* libicuuc.dylib */,
+				EF50534F1FB1F11F0055BB76 /* libicuuc.dylib.TOC */,
+				EF5053501FB1F11F0055BB76 /* libv8_for_testing.dylib */,
+				EF50534A1FB1F11F0055BB76 /* libv8_for_testing.dylib.TOC */,
+				EF5053511FB1F11F0055BB76 /* libv8_libbase.dylib */,
+				EF5053521FB1F1200055BB76 /* libv8_libbase.dylib.TOC */,
+				EF50534D1FB1F11F0055BB76 /* libv8_libplatform.dylib */,
+				EF5053531FB1F1200055BB76 /* libv8_libplatform.dylib.TOC */,
+				EF50534B1FB1F11F0055BB76 /* libv8.dylib */,
+				EF5053541FB1F1200055BB76 /* libv8.dylib.TOC */,
+				EF5053021FB0231C0055BB76 /* libinspector.a */,
+				EF5053031FB0231C0055BB76 /* libv8_base.a */,
+				EF5053011FB0231C0055BB76 /* libv8_external_snapshot.a */,
+				EF5053041FB0231C0055BB76 /* libv8_libsampler.a */,
+				EF5052FD1FB0166B0055BB76 /* libicui18n.a */,
+				EF5052FE1FB0166B0055BB76 /* libicuuc.a */,
+				EFB7C55E1FB011F0006E79DD /* libv8_libbase.a */,
+				EFB7C55D1FB011F0006E79DD /* libv8_libplatform.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EF50530B1FB044080055BB76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5053271FB18DD50055BB76 /* jsob.hpp in Headers */,
+				EF5053911FB5981E0055BB76 /* libplatform.h in Headers */,
+				EF5053991FB5981E0055BB76 /* v8-util.h in Headers */,
+				EF5053941FB5981E0055BB76 /* v8-inspector-protocol.h in Headers */,
+				EF50539D1FB5981E0055BB76 /* v8.h in Headers */,
+				EF5053931FB5981E0055BB76 /* v8-debug.h in Headers */,
+				EF5053901FB5981E0055BB76 /* libplatform-export.h in Headers */,
+				EF50539A1FB5981E0055BB76 /* v8-value-serializer-version.h in Headers */,
+				EF50539C1FB5981E0055BB76 /* v8-version.h in Headers */,
+				EF5053231FB045420055BB76 /* com_company_HelloJNI.h in Headers */,
+				EF50539E1FB5981E0055BB76 /* v8config.h in Headers */,
+				EF5053951FB5981E0055BB76 /* v8-inspector.h in Headers */,
+				EF5053961FB5981E0055BB76 /* v8-platform.h in Headers */,
+				EF5053921FB5981E0055BB76 /* v8-tracing.h in Headers */,
+				EF5053971FB5981E0055BB76 /* v8-profiler.h in Headers */,
+				EF5053771FB550230055BB76 /* context_connection_template.hpp in Headers */,
+				EF5053981FB5981E0055BB76 /* v8-testing.h in Headers */,
+				EF50539B1FB5981E0055BB76 /* v8-version-string.h in Headers */,
+				EF50536D1FB2A5030055BB76 /* V8JNI.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		EF50530C1FB044080055BB76 /* v8HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5053131FB044080055BB76 /* Build configuration list for PBXNativeTarget "v8HelloWorld" */;
+			buildPhases = (
+				EF5053091FB044080055BB76 /* Sources */,
+				EF50530A1FB044080055BB76 /* Frameworks */,
+				EF50530B1FB044080055BB76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = v8HelloWorld;
+			productName = v8HelloWorld;
+			productReference = EF50530D1FB044080055BB76 /* libv8HelloWorld.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		EF5053311FB1CE0E0055BB76 /* TestHelloJNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5053361FB1CE0E0055BB76 /* Build configuration list for PBXNativeTarget "TestHelloJNI" */;
+			buildPhases = (
+				EF50532E1FB1CE0E0055BB76 /* Sources */,
+				EF50532F1FB1CE0E0055BB76 /* Frameworks */,
+				EF5053301FB1CE0E0055BB76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHelloJNI;
+			productName = TestHelloJNI;
+			productReference = EF5053321FB1CE0E0055BB76 /* TestHelloJNI */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFB7C5511FB01127006E79DD /* v8-hello-world */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFB7C5591FB01127006E79DD /* Build configuration list for PBXNativeTarget "v8-hello-world" */;
@@ -91,6 +409,14 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "吕途";
 				TargetAttributes = {
+					EF50530C1FB044080055BB76 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF5053311FB1CE0E0055BB76 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					EFB7C5511FB01127006E79DD = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -110,22 +436,129 @@
 			projectRoot = "";
 			targets = (
 				EFB7C5511FB01127006E79DD /* v8-hello-world */,
+				EF50530C1FB044080055BB76 /* v8HelloWorld */,
+				EF5053311FB1CE0E0055BB76 /* TestHelloJNI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF5053091FB044080055BB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5053711FB542D80055BB76 /* com_company_JSContext.cpp in Sources */,
+				EF5053761FB550230055BB76 /* context_connection_template.cpp in Sources */,
+				EF5053191FB044770055BB76 /* com_company_HelloJNI.cpp in Sources */,
+				EF5053731FB545D00055BB76 /* com_company_V8.cpp in Sources */,
+				EF50536B1FB2A5030055BB76 /* V8JNI.cpp in Sources */,
+				EF5053261FB18DD50055BB76 /* jsob.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF50532E1FB1CE0E0055BB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5053471FB1F0190055BB76 /* com_company_HelloJNI.cpp in Sources */,
+				EF50536C1FB2A5030055BB76 /* V8JNI.cpp in Sources */,
+				EF5053351FB1CE0E0055BB76 /* main.cpp in Sources */,
+				EF5053481FB1F07A0055BB76 /* jsob.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFB7C54E1FB01127006E79DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EFB7C5561FB01127006E79DD /* main.cpp in Sources */,
+				EF5053291FB1B44F0055BB76 /* process.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EF5053141FB044080055BB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N8DG2225J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/lvtu/workspace/v8/v8/include/ /Users/lvtu/workspace/v8/v8/ /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin/";
+			};
+			name = Debug;
+		};
+		EF5053151FB044080055BB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N8DG2225J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/lvtu/workspace/v8/v8/include/ /Users/lvtu/workspace/v8/v8/ /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/include/darwin/";
+			};
+			name = Release;
+		};
+		EF5053371FB1CE0E0055BB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N8DG2225J;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/v8framework/include",
+					"$(PROJECT_DIR)/v8framework/",
+					"$(JAVA_HOME)/include/",
+					"$(JAVA_HOME)/include/darwin/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/debuglib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/v8framework/include $(PROJECT_DIR)/v8framework/ $(JAVA_HOME)/include/darwin/";
+			};
+			name = Debug;
+		};
+		EF5053381FB1CE0E0055BB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N8DG2225J;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/v8framework/include",
+					"$(PROJECT_DIR)/v8framework/",
+					"$(JAVA_HOME)/include/",
+					"$(JAVA_HOME)/include/darwin/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/debuglib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/v8framework/include $(PROJECT_DIR)/v8framework/ $(JAVA_HOME)/include/darwin/";
+			};
+			name = Release;
+		};
 		EFB7C5571FB01127006E79DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -178,6 +611,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -226,30 +660,71 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 		EFB7C55A1FB01127006E79DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N8DG2225J;
+				HEADER_SEARCH_PATHS = (
+					/Users/lvtu/workspace/v8/v8/include,
+					/Users/lvtu/workspace/v8/v8/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/lvtu/workspace/v8/v8 /Users/lvtu/workspace/v8/v8/include";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		EFB7C55B1FB01127006E79DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7N8DG2225J;
+				HEADER_SEARCH_PATHS = (
+					/Users/lvtu/workspace/v8/v8/include,
+					/Users/lvtu/workspace/v8/v8/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/lvtu/workspace/v8/v8 /Users/lvtu/workspace/v8/v8/include";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF5053131FB044080055BB76 /* Build configuration list for PBXNativeTarget "v8HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5053141FB044080055BB76 /* Debug */,
+				EF5053151FB044080055BB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5053361FB1CE0E0055BB76 /* Build configuration list for PBXNativeTarget "TestHelloJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5053371FB1CE0E0055BB76 /* Debug */,
+				EF5053381FB1CE0E0055BB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFB7C54D1FB01127006E79DD /* Build configuration list for PBXProject "v8-hello-world" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
